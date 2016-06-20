@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet-src.js"></script>
   <style>
-    #map{ height: 1000px }
+    #map{ height: 5100px, width: 4871px }
   </style>
 </head>
 <body>
@@ -19,7 +19,7 @@ One day this will be an ITP map...
   var map = L.map('map').setView([42.35, -71.08], 13);
 
   // load a tile layer
-  L.tileLayer('cocohead.jpg',
+  L.tileLayer('map.jpg',
     {
       attribution: 'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
       maxZoom: 17,
