@@ -4,13 +4,13 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" /> 
 </head>
 <body>
-    <div id="map" style="width: 700px; height: 500px"></div>
+    <div id="map" style="width: 5100px; height: 4800px"></div>
  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
 
     <script>
         var map = L.map('map').setView([0, 0], 2);
-        L.tileLayer('map/{z}/{x}/{y}.jpg', {
+        L.tileLayer('/output/{z}/{x}/{y}.jpg', {
             minZoom: 1,
             maxZoom: 6,
             attribution: 'ESO/INAF-VST/OmegaCAM',
